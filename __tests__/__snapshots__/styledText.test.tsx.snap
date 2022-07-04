@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test StyledText Expect StyledText to be rendered correctly with color & typography 1`] = `
+<Text
+  accessible={true}
+  color="BLUE_SURFACE"
+  style={
+    Object {
+      "color": "#98D0E8",
+      "fontSize": 16,
+      "fontStyle": "normal",
+      "fontWeight": "500",
+    }
+  }
+  typography="P1_MEDIUM"
+>
+  Test
+</Text>
+`;
+
+exports[`Test StyledText Expect StyledText to be rendered correctly with default 1`] = `
+<Text
+  accessible={true}
+  style={
+    Object {
+      "color": "#000000",
+      "fontSize": 16,
+      "fontStyle": "normal",
+      "fontWeight": "400",
+    }
+  }
+>
+  Test
+</Text>
+`;

@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect Results to be rendered correctly with default 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "bottom",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "flexGrow": 1,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "backgroundColor": "rgb(108,92,231)",
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight={1334}
+      bbWidth={750}
+      fill="none"
+      focusable={false}
+      height={1334}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Object {
+            "flex": 0,
+            "height": 1334,
+            "width": 750,
+          },
+        ]
+      }
+      vbHeight={812}
+      vbWidth={375}
+      width={750}
+    >
+      <RNSVGGroup
+        fill={null}
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+      >
+        <RNSVGPath
+          d="M-382.5 612.5L-835 243.5V948.5H834V264.5L487 673L39.5 -76L-382.5 612.5Z"
+          fill={4279510628}
+          fillOpacity={0.4}
+          propList={
+            Array [
+              "fill",
+              "fillOpacity",
+            ]
+          }
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+  </View>
+  <RCTScrollView
+    ListHeaderComponent={
+      <Header
+        correctOnes={0}
+        total={5}
+      />
+    }
+    collapsable={false}
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    getItemLayout={[Function]}
+    handlerTag={1}
+    handlerType="NativeViewGestureHandler"
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    renderScrollComponent={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "transparent",
+              "marginTop": 60,
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            color="WHITE"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+              }
+            }
+            typography="H1"
+          >
+            resultsSectionTitle
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "height": 400,
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <RNSVGSvgView
+              align="xMidYMid"
+              bbHeight={300}
+              bbWidth={300}
+              fill="none"
+              focusable={false}
+              height={300}
+              meetOrSlice={0}
+              minX={0}
+              minY={0}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  Object {
+                    "flex": 0,
+                    "height": 300,
+                    "width": 300,
+                  },
+                ]
+              }
+              vbHeight={300}
+              vbWidth={300}
+              width={300}
+            >
+              <RNSVGGroup
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              >
+                <RNSVGCircle
+                  cx={150}
+                  cy={150}
+                  fill={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "stroke",
+                      "strokeWidth",
+                    ]
+                  }
+                  r={135}
+                  stroke={1711323283}
+                  strokeWidth={30}
+                />
+                <RNSVGCircle
+                  cx={150}
+                  cy={150}
+                  fill={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "stroke",
+                      "strokeWidth",
+                      "strokeDasharray",
+                      "strokeDashoffset",
+                    ]
+                  }
+                  r={135}
+                  stroke={4278237332}
+                  strokeDasharray={
+                    Array [
+                      "848.2300164692441",
+                      "848.2300164692441",
+                    ]
+                  }
+                  strokeDashoffset={848.2300164692441}
+                  strokeWidth={30}
+                />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "position": "absolute",
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                color="WHITE"
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 32,
+                    "fontStyle": "normal",
+                    "fontWeight": "700",
+                    "textAlign": "center",
+                  }
+                }
+                typography="H1"
+              >
+                0
+              </Text>
+              <Text
+                accessible={true}
+                color="WHITE"
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 32,
+                    "fontStyle": "normal",
+                    "fontWeight": "700",
+                    "textAlign": "center",
+                  }
+                }
+                typography="H1"
+              >
+                of 5
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            color="WHITE"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+              }
+            }
+            typography="H1"
+          >
+            detailsSectionTitle
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 100,
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 10,
+            "height": 56,
+            "justifyContent": "center",
+            "paddingVertical": 10,
+            "width": "100%",
+          },
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <View
+        animatedStyle={
+          Object {
+            "value": Object {},
+          }
+        }
+        collapsable={false}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgb(0,184,148)",
+            "borderRadius": 10,
+            "height": 56,
+            "justifyContent": "center",
+            "paddingVertical": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ]
+          }
+          typography="P1_BOLD"
+        >
+          restartGameLabel
+        </Text>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect card to be rendered correctly 1`] = `
+<View
+  animatedStyle={
+    Object {
+      "value": Object {
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+        ],
+      },
+    }
+  }
+  collapsable={false}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 16,
+      "height": 667,
+      "overflow": "hidden",
+      "padding": 20,
+      "position": "absolute",
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": "100%",
+      "zIndex": 0,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderRadius": 16,
+            "height": 40,
+            "justifyContent": "center",
+            "minWidth": 120,
+          },
+          Object {
+            "backgroundColor": "rgb(108,92,231)",
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        color="WHITE"
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 16,
+            "fontStyle": "normal",
+            "fontWeight": "700",
+            "textAlign": "center",
+          }
+        }
+        testID="CardCategory"
+        typography="P1_BOLD"
+      >
+        Category
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 2,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 24,
+          "fontStyle": "normal",
+          "fontWeight": "700",
+          "textAlign": "center",
+        }
+      }
+      testID="CardQuestion"
+      typography="H2"
+    >
+      Question
+    </Text>
+  </View>
+</View>
+`;

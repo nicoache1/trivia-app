@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test SceneContainer Expect SceneContainer to be rendered correctly with some children & bar style 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "bottom",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "flexGrow": 1,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text>
+    Children
+  </Text>
+</RNCSafeAreaView>
+`;
+
+exports[`Test SceneContainer Expect SceneContainer to be rendered correctly with some children 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "bottom",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "flexGrow": 1,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text>
+    Children
+  </Text>
+</RNCSafeAreaView>
+`;

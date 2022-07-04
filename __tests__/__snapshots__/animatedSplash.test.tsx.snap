@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect AnimatedSplash to be rendered correctly with default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    animatedStyle={
+      Object {
+        "value": Object {
+          "height": 70,
+          "opacity": 1,
+          "zIndex": 100,
+        },
+      }
+    }
+    collapsable={false}
+    onLoadEnd={[Function]}
+    resizeMode="contain"
+    source={1}
+    style={
+      Object {
+        "height": 70,
+        "opacity": 1,
+        "zIndex": 100,
+      }
+    }
+  />
+  <View
+    animatedStyle={
+      Object {
+        "value": Object {
+          "backgroundColor": "rgb(108,92,231)",
+          "transform": Array [
+            Object {
+              "translateY": 375,
+            },
+            Object {
+              "rotate": "-25deg",
+            },
+            Object {
+              "translateX": -1334,
+            },
+            Object {
+              "translateY": -375,
+            },
+          ],
+          "zIndex": 1,
+        },
+      }
+    }
+    collapsable={false}
+    style={
+      Object {
+        "backgroundColor": "rgb(108,92,231)",
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "transform": Array [
+          Object {
+            "translateY": 375,
+          },
+          Object {
+            "rotate": "-25deg",
+          },
+          Object {
+            "translateX": -1334,
+          },
+          Object {
+            "translateY": -375,
+          },
+        ],
+        "zIndex": 1,
+      }
+    }
+  />
+</View>
+`;

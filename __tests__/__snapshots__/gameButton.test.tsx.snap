@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect GameButton to be rendered correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "opacity": 1,
+      },
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderColor": "black",
+        "borderRadius": 40,
+        "elevation": 11,
+        "height": 110,
+        "justifyContent": "center",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.36,
+        "shadowRadius": 6.68,
+        "width": 110,
+      },
+    ]
+  }
+  testID="gameButton"
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 80,
+        "width": 80,
+      }
+    }
+  />
+</View>
+`;

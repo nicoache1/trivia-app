@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test styledContainer Expect StyledContainer to be rendered correctly with normal color 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "paddingHorizontal": 20,
+      "paddingVertical": 10,
+    }
+  }
+/>
+`;
+
+exports[`Test styledContainer Expect StyledContainer to be rendered with some color 1`] = `
+<View
+  color="BLUE_SURFACE"
+  style={
+    Object {
+      "backgroundColor": "#98D0E8",
+      "paddingHorizontal": 20,
+      "paddingVertical": 10,
+    }
+  }
+/>
+`;

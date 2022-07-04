@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect StyledButton to be rendered correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 10,
+        "height": 56,
+        "justifyContent": "center",
+        "paddingVertical": 10,
+        "width": "100%",
+      },
+      Object {
+        "opacity": 1,
+      },
+    ]
+  }
+>
+  <View
+    animatedStyle={
+      Object {
+        "value": Object {},
+      }
+    }
+    collapsable={false}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(108,92,231)",
+        "borderRadius": 10,
+        "height": 56,
+        "justifyContent": "center",
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontSize": 16,
+            "fontStyle": "normal",
+            "fontWeight": "700",
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+      typography="P1_BOLD"
+    >
+      label
+    </Text>
+  </View>
+</View>
+`;

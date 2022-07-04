@@ -1,0 +1,601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect Welcome to be rendered correctly with default 1`] = `
+<View
+  animatedStyle={
+    Object {
+      "value": Object {
+        "backgroundColor": "rgba(108, 92, 231, 1)",
+      },
+    }
+  }
+  collapsable={false}
+  style={
+    Object {
+      "backgroundColor": "rgba(108, 92, 231, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "flex": 0.2,
+      }
+    }
+  />
+  <View
+    animatedStyle={
+      Object {
+        "value": Object {
+          "right": -20,
+          "top": 266.8,
+          "transform": Array [
+            Object {
+              "scale": 1,
+            },
+            Object {
+              "rotate": "-40deg",
+            },
+          ],
+        },
+      }
+    }
+    collapsable={false}
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "position": "absolute",
+        "right": -20,
+        "top": 266.8,
+        "transform": Array [
+          Object {
+            "scale": 1,
+          },
+          Object {
+            "rotate": "-40deg",
+          },
+        ],
+      }
+    }
+  >
+    <SvgMock />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 1334,
+      }
+    }
+  >
+    <View
+      animatedStyle={
+        Object {
+          "value": Object {
+            "transform": Array [
+              Object {
+                "translateX": 0,
+              },
+            ],
+          },
+        }
+      }
+      collapsable={false}
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight="717"
+            bbWidth={750}
+            fill="none"
+            focusable={false}
+            height="717"
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 717,
+                  "width": 750,
+                },
+              ]
+            }
+            vbHeight={717}
+            vbWidth={375}
+            width={750}
+          >
+            <RNSVGGroup
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            >
+              <RNSVGPath
+                d="M-348.5 688.5L-801 319.5V1024.5H868V340.5L521 749L73.5 0L-348.5 688.5Z"
+                fill={4279510628}
+                fillOpacity={0.2}
+                propList={
+                  Array [
+                    "fill",
+                    "fillOpacity",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <SvgMock />
+        <Text
+          accessible={true}
+          color="TERTIARY"
+          style={
+            Object {
+              "color": "#142664",
+              "fontSize": 62,
+              "fontStyle": "normal",
+              "fontWeight": "700",
+            }
+          }
+          typography="H0"
+        >
+          welcomeLabel
+        </Text>
+        <Text
+          accessible={true}
+          color="WHITE"
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 32,
+              "fontStyle": "normal",
+              "fontWeight": "300",
+            }
+          }
+          typography="H1"
+        >
+          tricktyLabel
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={1334}
+            bbWidth={750}
+            fill="none"
+            focusable={false}
+            height={1334}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 1334,
+                  "width": 750,
+                },
+              ]
+            }
+            vbHeight={812}
+            vbWidth={375}
+            width={750}
+          >
+            <RNSVGGroup
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            >
+              <RNSVGPath
+                d="M-7.5 612.5L-460 243.5V948.5H1209V264.5L862 673L414.5 -76L-7.5 612.5Z"
+                fill={4293161580}
+                fillOpacity={0.4}
+                propList={
+                  Array [
+                    "fill",
+                    "fillOpacity",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <SvgMock />
+        <Text
+          accessible={true}
+          color="WHITE"
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 32,
+              "fontStyle": "normal",
+              "fontWeight": "700",
+            }
+          }
+          typography="H1"
+        >
+          comeOnLabel
+        </Text>
+        <Text
+          accessible={true}
+          color="TERTIARY"
+          style={
+            Object {
+              "color": "#142664",
+              "fontSize": 62,
+              "fontStyle": "normal",
+              "fontWeight": "700",
+            }
+          }
+          typography="H0"
+        >
+          itsEasyLabel
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={1334}
+            bbWidth={750}
+            fill="none"
+            focusable={false}
+            height={1334}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 1334,
+                  "width": 750,
+                },
+              ]
+            }
+            vbHeight={812}
+            vbWidth={375}
+            width={750}
+          >
+            <RNSVGGroup
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            >
+              <RNSVGPath
+                d="M-382.5 612.5L-835 243.5V948.5H834V264.5L487 673L39.5 -76L-382.5 612.5Z"
+                fill={4278231425}
+                fillOpacity={0.4}
+                propList={
+                  Array [
+                    "fill",
+                    "fillOpacity",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <SvgMock />
+        <Text
+          accessible={true}
+          color="TERTIARY"
+          style={
+            Object {
+              "color": "#142664",
+              "fontSize": 62,
+              "fontStyle": "normal",
+              "fontWeight": "700",
+            }
+          }
+          typography="H0"
+        >
+          playLabel
+        </Text>
+        <Text
+          accessible={true}
+          color="WHITE"
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 32,
+              "fontStyle": "normal",
+              "fontWeight": "300",
+              "textAlign": "center",
+            }
+          }
+          typography="H1"
+        >
+          itsFunnyLabel
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight="812"
+            bbWidth={750}
+            fill="none"
+            focusable={false}
+            height="812"
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 812,
+                  "width": 750,
+                },
+              ]
+            }
+            vbHeight={812}
+            vbWidth={375}
+            width={750}
+          >
+            <RNSVGGroup
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            >
+              <RNSVGPath
+                d="M-757.5 612.5L-1210 243.5V948.5H459V264.5L112 673L-335.5 -76L-757.5 612.5Z"
+                fill={4293287565}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <SvgMock />
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            color="TERTIARY"
+            style={
+              Object {
+                "color": "#142664",
+                "fontSize": 32,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+              }
+            }
+            typography="H1"
+          >
+            letsLabel
+          </Text>
+          <Text
+            accessible={true}
+            color="WHITE"
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 32,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+              }
+            }
+            typography="H1"
+          >
+            startLabel
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "bottom": 53.36,
+        "height": 133.4,
+        "justifyContent": "flex-start",
+        "left": 0,
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 10,
+            "height": 56,
+            "justifyContent": "center",
+            "paddingVertical": 10,
+            "width": "100%",
+          },
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <View
+        animatedStyle={
+          Object {
+            "value": Object {
+              "backgroundColor": "rgba(0, 184, 148, 1)",
+            },
+          }
+        }
+        collapsable={false}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 184, 148, 1)",
+            "borderRadius": 10,
+            "height": 56,
+            "justifyContent": "center",
+            "paddingVertical": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+                "fontStyle": "normal",
+                "fontWeight": "700",
+              },
+              Object {
+                "alignItems": "center",
+              },
+              Object {
+                "color": "#FFFFFF",
+              },
+            ]
+          }
+          typography="P1_BOLD"
+        >
+          startNowLabel
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect Background to be rendered correctly 1`] = `
+<View
+  style={
+    Object {
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 70,
+    }
+  }
+>
+  <RNSVGSvgView
+    align="xMinYMin"
+    bbHeight="812"
+    bbWidth={750}
+    fill="none"
+    focusable={false}
+    height="812"
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {
+          "flex": 0,
+          "height": 812,
+          "width": 750,
+        },
+      ]
+    }
+    vbHeight={812}
+    vbWidth={375}
+    width={750}
+  >
+    <RNSVGGroup
+      fill={null}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M-757.5 612.5L-1210 243.5V948.5H459V264.5L112 673L-335.5 -76L-757.5 612.5Z"
+        fill={4279510628}
+        fillOpacity={0.3}
+        propList={
+          Array [
+            "fill",
+            "fillOpacity",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;

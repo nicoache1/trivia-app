@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect Game to be rendered correctly with default 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "bottom",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "flexGrow": 1,
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+      },
+      Array [
+        Object {
+          "flex": 1,
+          "paddingVertical": 60,
+        },
+        Object {
+          "backgroundColor": "rgb(108,92,231)",
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 70,
+      }
+    }
+  >
+    <RNSVGSvgView
+      align="xMinYMin"
+      bbHeight="812"
+      bbWidth={750}
+      fill="none"
+      focusable={false}
+      height="812"
+      meetOrSlice={1}
+      minX={0}
+      minY={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Object {
+            "flex": 0,
+            "height": 812,
+            "width": 750,
+          },
+        ]
+      }
+      vbHeight={812}
+      vbWidth={375}
+      width={750}
+    >
+      <RNSVGGroup
+        fill={null}
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+      >
+        <RNSVGPath
+          d="M-757.5 612.5L-1210 243.5V948.5H459V264.5L112 673L-335.5 -76L-757.5 612.5Z"
+          fill={4279510628}
+          fillOpacity={0.3}
+          propList={
+            Array [
+              "fill",
+              "fillOpacity",
+            ]
+          }
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 100,
+        "justifyContent": "center",
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      color="WHITE"
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 32,
+          "fontStyle": "normal",
+          "fontWeight": "700",
+        }
+      }
+      typography="H1"
+    >
+      Player
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginHorizontal": 10,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "bottom": 66.7,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "left": 0,
+        "marginHorizontal": 15,
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "opacity": 1,
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderRadius": 40,
+            "elevation": 11,
+            "height": 110,
+            "justifyContent": "center",
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.36,
+            "shadowRadius": 6.68,
+            "width": 110,
+          },
+        ]
+      }
+      testID="gameButton"
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 80,
+            "width": 80,
+          }
+        }
+      />
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "opacity": 1,
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderRadius": 40,
+            "elevation": 11,
+            "height": 110,
+            "justifyContent": "center",
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.36,
+            "shadowRadius": 6.68,
+            "width": 110,
+          },
+        ]
+      }
+      testID="gameButton"
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 80,
+            "width": 80,
+          }
+        }
+      />
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

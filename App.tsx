@@ -1,20 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import 'react-native-get-random-values'
+
+import { NavigationContainer } from '@react-navigation/native'
+import * as SplashScreen from 'expo-splash-screen'
+import React from 'react'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
+import { Provider as ReduxProvider } from 'react-redux'
+
+import { navigationRef } from './src/common/navigation'
+import { AppNavigator } from './src/navigation'
+import { store } from './src/store'
+import { ThemeProvider } from './src/styles/Theme'
+
+SplashScreen.preventAutoHideAsync()
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <SafeAreaProvider>
+      <ReduxProvider store={store}>
+        <NavigationContainer ref={navigationRef}>
+          <ThemeProvider>
+            <AppNavigator />
+          </ThemeProvider>
+        </NavigationContainer>
+      </ReduxProvider>
+    </SafeAreaProvider>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
