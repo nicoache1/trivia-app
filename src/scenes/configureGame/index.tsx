@@ -63,7 +63,7 @@ export const ConfigureGame: SceneProps<Routes.ConfigureGame> = ({
   return (
     <View
       style={[styles.screenContainer, { backgroundColor: colors.SECONDARY }]}>
-      <SceneContainer style={styles.scene}>
+      <SceneContainer style={styles.scene} barStyle={'light-content'}>
         <View style={styles.headerContainer}>
           <Background />
           <Image

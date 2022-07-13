@@ -3,6 +3,7 @@ import 'react-native-get-random-values'
 import { NavigationContainer } from '@react-navigation/native'
 import * as SplashScreen from 'expo-splash-screen'
 import React from 'react'
+import { LogBox } from 'react-native'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 import { Provider as ReduxProvider } from 'react-redux'
 
@@ -12,6 +13,8 @@ import { store } from './src/store'
 import { ThemeProvider } from './src/styles/Theme'
 
 SplashScreen.preventAutoHideAsync()
+
+LogBox.ignoreAllLogs(true)
 
 export default function App() {
   return (

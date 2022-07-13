@@ -1,5 +1,6 @@
 import SplashImage from 'assets/splashShape.png'
 import * as SplashScreen from 'expo-splash-screen'
+import * as Localization from 'localization'
 import React, { useLayoutEffect } from 'react'
 import { Dimensions, StyleSheet, View } from 'react-native'
 import Animated, {
@@ -20,6 +21,7 @@ const { width, height } = Dimensions.get('window')
 export const AnimatedSplash: SceneProps<Routes.AnimatedSplash> = ({
   navigation,
 }) => {
+  Localization.init()
   useLayoutEffect(() => {
     navigation.setOptions({ headerShown: false })
   }, [navigation])

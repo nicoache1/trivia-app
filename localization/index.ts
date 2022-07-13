@@ -8,7 +8,7 @@ import { en } from './languages/en'
 const DEFAULT_LANGUAGE = 'en'
 
 enum AvailableLanguages {
-  EN_US = 'en-US',
+  EN = 'en',
 }
 
 interface Translations {
@@ -18,7 +18,7 @@ interface Translations {
 }
 
 export const translationGetters: Translations = {
-  [AvailableLanguages.EN_US]: en,
+  [AvailableLanguages.EN]: en,
 }
 
 export const localization = memoize(

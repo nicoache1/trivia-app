@@ -40,14 +40,14 @@ const circleYPositions = [height / 5, height / 3, height / 5, height / 6]
 const circleXPositions = [-20, -40, 10, -30]
 const circleScaleSizes = [1, 1.5, 1.2, 1.4]
 const rotations = [-40, 0, 0, -40]
-const buttonText = [
-  localization('startNowLabel'),
-  localization('nextLabel'),
-  localization('nextLabel'),
-  localization('beginLabel'),
-]
 
 export const Welcome: SceneProps<Routes.Welcome> = ({ navigation }) => {
+  const buttonText = [
+    localization('startNowLabel'),
+    localization('nextLabel'),
+    localization('nextLabel'),
+    localization('beginLabel'),
+  ]
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: false,
